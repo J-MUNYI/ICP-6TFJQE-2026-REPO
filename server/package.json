@@ -3,21 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend.js",
+    "dev": "nodemon backend.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "EcoWise is a MERN-based web application that promotes responsible consumption by enabling users to share items for reuse, repair or donation. ## Week 1 Progress -Creation of project strusture -Express backend initialized -React frontend set up using Vite -Basic \"Hello World\" proof of concept completed",
   "dependencies": {
-    "cors": "^2.8.5",
+    "cors": "^2.8.6",
     "dotenv": "^17.2.3",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5"
   },
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend.js",
-    "dev": "nodemon backend.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   }
 }
