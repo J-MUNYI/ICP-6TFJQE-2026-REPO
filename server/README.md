@@ -39,7 +39,7 @@ Testing API functionality using Postman
 
 This lays the foundation for Week 3 and beyond.
 
-1️⃣ Server Setup
+1. Server Setup
 Installed Tools
 
 Node.js (v20.x)
@@ -72,9 +72,9 @@ npm run dev
 The server runs on http://localhost:5000 by default.
 When opened in a browser, you will see:
 
-EcoWise API is running 🌱
+EcoWise API is running!
 
-2️⃣ MongoDB Integration
+2. MongoDB Integration
 
 MongoDB is used to store item data.
 
@@ -92,7 +92,7 @@ category	String	Category of the item
 _id	ObjectId	Unique identifier
 createdAt	Date	Timestamp of creation
 updatedAt	Date	Timestamp of last update
-3️⃣ API Endpoints (CRUD)
+3. API Endpoints (CRUD)
 
 All endpoints are under /api/items.
 
